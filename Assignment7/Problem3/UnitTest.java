@@ -7,15 +7,15 @@ import static org.junit.Assert.*;
 
 public class UnitTest {
 
-    Scissors s = new Scissors(5);
-    Paper p = new Paper(7);
-    Rock r = new Rock(15);
+    Scissors s = new Scissors(15);
+    Paper p = new Paper(20);
+    Rock r = new Rock(30);
 
     @Test
     public void setStrength() {
-        assertEquals(5,s.strength);
-        assertEquals(7,p.strength);
-        assertEquals(15,r.strength);
+        assertEquals(15,s.strength);
+        assertEquals(20,p.strength);
+        assertEquals(30,r.strength);
     }
 
     @Test
